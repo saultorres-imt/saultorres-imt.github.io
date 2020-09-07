@@ -1,0 +1,70 @@
+:root {
+    --font_0: normal normal normal 65px/1.4em lulo-clean-w01-one-bold,sans-serif;
+}
+
+body {
+    background-color:gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li{
+    display: block;
+    display: inline;
+}
+
+li a {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+div span:nth-child(2) {
+    color: #00d646
+}
+
+.principal {
+    display: grid;
+}
+
+.image1 {
+    background-image: url("images/wp6893248.png");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.motto {
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.right {
+    position:absolute;
+    right: 0px;
+    width: 300px;
+}
+
+.skills {
+    background-color: lightcyan;
+}
+
+.projects {
+    background-color: orange;
+}
+
+.resume {
+    background-color: lightskyblue;
+}
+
+.hobbies {
+    background-color: yellowgreen;
+}
