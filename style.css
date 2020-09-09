@@ -21,7 +21,7 @@ div span:nth-child(2) {
     color: #00d646
 }
 
-.image1 {
+.image {
     background-image: url("images/wp6893248s.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -31,10 +31,24 @@ div span:nth-child(2) {
     width: auto;
 }
 
+.col-md-8 {
+    background-color: whitesmoke;
+    position: relative;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.image1 {
+    max-width: 350px;
+    height: 200px;
+}
+
 .name-title {
     font-size: 3rem;
     text-shadow: 5px 5px 2px #333;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .motto {
@@ -52,6 +66,17 @@ div span:nth-child(2) {
     position:absolute;
     right: 0px;
     width: 300px;
+}
+
+.heading {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: gray;
+    padding-left: 50px;
+}
+
+.pictures {
+    background-color: ivory;
 }
 
 .skills {
