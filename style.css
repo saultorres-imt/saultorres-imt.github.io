@@ -24,9 +24,13 @@ footer h5 {
     font-weight: bolder;
     color: #00d646;
 }
-h2 {
+h2.res {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px 0px #00D6B1;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h3 {
@@ -51,12 +55,18 @@ br {
     height: 700px;
     width: auto;
 }
-
+.text {
+    margin-top: 0px;
+    font-size: 20px;
+}
 .image1 {
     max-width: 350px;
     height: 200px;
 }
-
+.image2 {
+    width: auto;
+    height: auto;
+}
 .name-title {
     color: white;
     font-size: 50px;
@@ -112,7 +122,7 @@ br {
     background-color: orange;
 }
 
-.resume {
+.back {
     background-color: whitesmoke;
     position: relative;
 }
@@ -140,7 +150,8 @@ br {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
     font-weight: 700;
-    text-shadow: 2px 2px 2px #00D6B1;
+    color: rgba(0, 0, 0, 0.664);
+    text-shadow: 2px 2px 2px #0e0e0e6c;
     padding-left: 8%;
 }
 
