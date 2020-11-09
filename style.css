@@ -8,7 +8,8 @@ body {
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
+    text-align: left;
+    line-height: 1.8;
 }
 li a {
     font-size: 20px;
@@ -22,7 +23,7 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     text-shadow: 5px 5px 2px #333;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 div h2:nth-child(2) {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -31,15 +32,23 @@ div h2:nth-child(2) {
 h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px 0px #00D6B1;
+    font-size: 40px;
 }
 h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
+    padding-top: 5px;
 }
 footer h5 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     color: #00d646;
+}
+h6 {
+    padding-bottom: 0px;
+}
+dt{
+    font-size: 18px;
 }
 
 .navbar-nav {
@@ -47,6 +56,16 @@ footer h5 {
 }
 .nav-item {
     padding-right: 20px;
+}
+.nav-logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.589);
+    font-size: 25px;
+    padding-left: 50px;
+}
+.nav-border {
+    border-bottom-style: solid;
+    border-bottom-color: #00d646;
 }
 .image-back {
     background-image: url("images/wp6893248s.png");
@@ -59,7 +78,8 @@ footer h5 {
     font-family: sans-serif;
     color: white;
     font-size: 30px;
-    padding-top: 30%;
+    padding-top: 20%;
+    padding-bottom: 40px;
 }
 .but-bot {
     position: relative;
@@ -76,7 +96,19 @@ footer h5 {
     padding-top: 40px;
 }
 .bg-secondary {
-    background-color: gray !important;
+    background-color:rgba(60, 60, 60, 0.4) !important;
+}
+.mini-title1{
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 8px;
+    font-size: 40px;
+}
+.mini-title2{
+    position: absolute;
+    right: 30px;
+    padding-top: 5px;
+    font-size: 40px;
 }
 .about-sec {
     padding-top: 35px;
@@ -84,38 +116,46 @@ footer h5 {
     padding-left: 50px;
     padding-right: 30px;
 }
-.image-me {
-    width: 460;
-    height: 345;
-}
 .img {
     display: inline-block;
 }
-.logo {
+.img-fluid{
+    border-radius: 3px;
+}
+.img-home {
+    border-radius: 3px;
+    position: relative;
+    padding-top: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 100%;
+    height: auto;
+}
+.logo-tec {
     position: absolute;
-    right: 30px;
-    top: 75px;
+    right: 80px;
+    top: 570px;
     width: 180px;
     height: auto;
 }
-.logo-2 {
+.logo-ksu {
     position: absolute;
-    top: 450px;
-    right: 30px;
+    top: 90px;
+    right: 80px;
     width: 150px;
     height: auto;
 }
-.logo-1 {
+.logo-euba {
     position: absolute;
-    right: 30px;
-    top: 240px;
+    right: 80px;
+    top: 750px;
     width: 80px;
     height: auto;
 }
-.logo-3 {
+.logo-conti {
     position: absolute;
-    right: 30px;
-    top: 560px;
+    right: 80px;
+    top: 230px;
     width: 200px;
     height: auto;
 }
@@ -130,9 +170,6 @@ footer h5 {
 .icon-end {
     position: absolute;
     right: 0px;
-}
-.icon-right {
-    padding-left: 20px;
 }
 .right {
     position:absolute;
@@ -169,7 +206,7 @@ footer h5 {
         padding-top: 20%;
         font-size: 20px;
     }
-    .icon-right {
+    .icon-deas{
         padding-top: 10px;
     }
     .descrip {
